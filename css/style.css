@@ -185,9 +185,12 @@ a:hover{
     }
     .smartProperties__list{
         list-style: none;
+        font-size: 11px;
     }
     .smartProperties__text{
-        padding: 5px;
+        margin: 5px;
+        font-size: 11px;
+
     }
 
     .footerText{
