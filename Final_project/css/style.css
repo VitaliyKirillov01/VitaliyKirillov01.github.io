@@ -230,6 +230,7 @@ a:hover{
         display: flex;
         flex-direction: column;
         width: 5vh;
+        height: 5vh;
         margin: 2vh auto;
     }
     .header__icon__image{
