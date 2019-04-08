@@ -3,109 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Huawei P30</title>
 </head>
 <body>
 <div id="preloader">
-<div class="dws-progress-bar"></div>
+    <div class="dws-progress-bar"></div>
 </div>
-<div class="mainWrapper">
-    <header class="header">
-        <p>Карточка товара</p>
-        <p>артикул: <strong>1234567</strong></p>
-    </header>
-    <main class="main">
-        <div class="name">
-            <p>HUAWEI P30 NEW!</p>
+    <section class="mainWrapper maxWidth">
+        <div class="header">
+            <p class="header__content">Карточка товара</p>
+            <p class="header__content">артикул: <strong>1234567</strong></p>
         </div>
-        <div class="menu">
-            <div class="imageAll">
-                <div class="image">
-                    <img class="mainImage" src="img/huawei_p30_pro_blue_images_11462550974.jpg" alt="mainCard" style="margin: 0 auto;">
-                    <div class="discount">
-                        <p class="discount--name">Предзаказ</p>
+        <div class="main">
+            <div class="main__name">
+                <h2 class="main__name-content">HUAWEI P30 NEW!</h2>
+            </div>
+            <div class="main__menu">
+                <div class="imageAll">
+                    <div class="imageAll__mainImage">
+                        <img class="mainImage" src="images/huawei_p30_pro_blue_images_11462550974.jpg" alt="mainCard">
+                        <div class="discount">
+                            <p class="discount__name">Предзаказ</p>
+                        </div>
+                    </div>
+                    <div class="imageAll__smallImages">
+                        <img src="images/huawei_p30_pro_blue_images_11462554016.jpg" alt="" class="smallImg">
+                        <img src="images/huawei_p30_pro_blue_images_11462554016.jpg" alt="" class="smallImg">
+                        <img src="images/huawei_p30_pro_blue_images_11462554016.jpg" alt="" class="smallImg">
                     </div>
                 </div>
-                <div class="smallPhotos">
-                    <!--<img  src="img/huawei_p30_pro_blue_images_11462553188.jpg" alt="" class="smallImg">-->
-                    <!--<img src="img/huawei_p30_pro_blue_images_11462557580.jpg" alt="" class="smallImg">-->
-                    <img src="img/huawei_p30_pro_blue_images_11462554016.jpg" alt="" class="smallImg">
-                    <img src="img/huawei_p30_pro_blue_images_11462557760.jpg" alt="" class="smallImg">
+                <div class="smartProperties">
+                    <div class="smartProperties__content">
+                        <p class="smartProperties__title">Дисплей</p>
+                        <ul class="smartProperties__list">
+                            <li>Размер экрана: Безрамочный дисплей, 6,1"</li>
+                            <li>Разрешение экрана: FULL HD+</li>
+                            <li>Разрешение экрана PX: 2340 х 1080</li>
+                        </ul>
+                    </div>
+                    <div class="smartProperties__content">
+                        <p class="smartProperties__title">Производительность</p>
+                        <ul class="smartProperties__list">
+                            <li>Процессор: HiSilicon Kirin 980</li>
+                            <li>Количество ядер: 8 ядер</li>
+                            <li>Частота процессора: 2,6 ГГц</li>
+                            <li>Видеопроцессор: Mali-G76 MP10</li>
+                            <li>Объем оперативной памяти: 6 Гб</li>
+                            <li>Объем встроенной памяти: 128 Гб</li>
+                            <li>Слот для карты памяти: Да</li>
+                            <li> Тип карты памяти: MicroSD (TransFlash)</li>
+                            <li>Максимальный объем карты памяти: 256 Гб</li>
+                            <li>Смартфон для гейминга: Да</li>
+                        </ul>
+                    </div>
+                    <div class="smartProperties__content">
+                        <p class="smartProperties__title">Автономность</p>
+                        <ul class="smartProperties__list">
+                            <li>Емкость аккумулятора:  3650 мАч</li>
+                            <li>Тип аккумулятора: Li-Pol</li>
+                            <li>Разъем ЗУ: USB Type-C</li>
+                            <li>Функция беспроводной зарядки: Нет</li>
+                            <li>Функция быстрой зарядки: Да</li>
+                        </ul>
+                    </div>
                 </div>
-
             </div>
-            <div class="fieldsets">
-                <fieldset class="listOfProperties">
-                    <legend class="listOfProperties--head">Дисплей</legend>
-                        Размер экрана: Безрамочный дисплей, 6,1"<br>
-                        Разрешение экрана: FULL HD+<br>
-                        Разрешение экрана PX: 2340 х 1080<br><br>
-                </fieldset>
-                <fieldset class="listOfProperties1">
-                    <legend class="listOfProperties--head">Производительность</legend>
-                        <p>Процессор:
-                        HiSilicon Kirin 980<br>
-                        Количество ядер:
-                        8 ядер<br>
-                        Частота процессора:
-                        2,6 ГГц<br>
-                        Видеопроцессор:
-                        Mali-G76 MP10<br>
-                        Объем оперативной памяти:
-                        6 Гб<br>
-                        Объем встроенной памяти:
-                        128 Гб<br>
-                        Слот для карты памяти:
-                        Да<br>
-                        Тип карты памяти:
-                        MicroSD (TransFlash)<br>
-                        Максимальный объем карты памяти:
-                        256 Гб<br>
-                        Смартфон для гейминга:
-                        Да</p>
-                </fieldset>
-                <fieldset class="listOfProperties2">
-                    <legend class="listOfProperties--head">Автономность</legend>
-                        <p >        Емкость аккумулятора:  3650 мАч<br>
-                            Тип аккумулятора:
-                            Li-Pol<br>
-                            Разъем ЗУ:
-                            USB Type-C<br>
-                            Функция беспроводной зарядки:
-                            Нет<br>
-                            Функция быстрой зарядки:
-                            Да
-                        </p>
-                </fieldset>
-            </div>
-        </div>
-        <section class="video">
-                <iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/T3lGxdZqfcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-        <section class="Properties">
-            <fieldset class="Properties-content">
-                <legend class="listOfProperties--head">Краткое описание</legend>
-                    <p class="listOfProperties--content">Посмотрите на мир под другим углом, и он станет ярче, просторнее и ближе. Вас ждут неожиданные открытия, которые впоследствии станут приятными воспоминаниями. Huawei P30 расширяет границы возможностей мобильной фотографии.
+            <div class="main__properties">
+                <div class="smartProperties">
+                    <p class="smartProperties__title">Краткое описание</p>
+                    <p class="smartProperties__text">Посмотрите на мир под другим углом, и он станет ярче, просторнее и ближе. Вас ждут неожиданные открытия, которые впоследствии станут приятными воспоминаниями. Huawei P30 расширяет границы возможностей мобильной фотографии.
                         Вдохновленный красотой неба, Huawei P30 напоминает о лучах света, пронизывающих облака. Окунитесь в синеву ясного неба и насладитесь красотой загадочного северного сияния.
                         Тройная камера Leica позволит вам запечатлеть мир во всей красе. Уникальная система камеры включает суперчувствительный объектив 40 Мп, ультраширокоугольный объектив 16 Мп и телеобъектив 8 Мп. Сохраните воспоминания о ярких моментах вашей жизни вместе с камерой Leica.
                         <br><br>Подробнее:
                         <a href="https://www.citrus.ua/smartfony/p30-series-huawei-641968.html" target="_blank">www.citrus.ua/smartfony/p30-series-huawei-641968</a>
                     </p>
-            </fieldset>
-        </section>
-
-    </main>
-    <footer>
-        <div class="footerText">
-            <p>* Характеристики и комплектация могут изменятся производителем без уведомления <br></p>
-            <p>* Внимание! Все телефоны имеют кирилличные буквы на клавиатуре, украинское меню!</p>
+                </div>
+            </div>
         </div>
-    </footer>
-
-</div>
-<script src="scripts/plugin.js"></script>
-<script src="scripts/script.js"></script>
+        <div class="footerText ">
+                <p class="footerText__text">* Характеристики и комплектация могут изменятся производителем без уведомления <br></p>
+                <p class="footerText__text">* Внимание! Все телефоны имеют кирилличные буквы на клавиатуре, украинское меню!</p>
+            </div>
+    </section>
 </body>
 </html>
