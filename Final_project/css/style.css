@@ -228,8 +228,12 @@ a:hover{
     }
     .header__icon{
         display: flex;
+        flex-direction: column;
         width: 5vh;
         margin: 2vh auto;
+    }
+    .header__icon__image{
+        margin: 0;
     }
     .header__icon__text{
         margin: auto 0;
@@ -359,15 +363,15 @@ a:hover{
     }
     .description__button{
         margin: 0 auto;
-        max-width: 130px;
-        height: 40px;
+        max-width: 100px;
+        height: 30px;
         border: 2px solid #00e0d0;
         display: flex;
         justify-content: center;
         align-items: center;
         color: #00e0d0;
         transition: .7s;
-        font-size: 13px;
+        font-size: 10px;
         font-weight: bold;
         font-family: HammersmithOne,sans-serif;
     }
@@ -382,15 +386,12 @@ a:hover{
 
 
     .watchOurStory{
-        height: 550px;
+        height: 300px;
         background-image: url(watchOurStory.png);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .watchOurStory__icon{
-
     }
     .watchOurStory__text{
         font-size: 16px;
