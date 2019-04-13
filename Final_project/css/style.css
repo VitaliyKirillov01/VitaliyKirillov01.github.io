@@ -192,7 +192,7 @@ a:hover{
 /*        WATCH OUR STORY         */
 
 
-.watchOurStory{
+.ourStory__watchOurStory{
     height: 550px;
     background-image: url(watchOurStory.png);
     -webkit-background-size: cover;
@@ -865,7 +865,7 @@ a:hover{
     /*        WATCH OUR STORY         */
 
 
-    .watchOurStory{
+    .ourStory__watchOurStory{
         height: 300px;
         background-image: url(watchOurStory.png);
         display: flex;
@@ -1448,7 +1448,7 @@ a:hover{
     /*        WATCH OUR STORY         */
 
 
-    .watchOurStory{
+    .ourStory__watchOurStory{
         height: 300px;
         background-image: url(watchOurStory.png);
         display: flex;
